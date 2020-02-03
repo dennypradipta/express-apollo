@@ -1,9 +1,10 @@
 const express = require("express");
-const dotenv = require("dotenv").config();
 const cookieParser = require("cookie-parser");
 const logger = require("morgan");
 const { ApolloServer } = require("apollo-server-express");
 const app = express();
+
+require("dotenv").config();
 
 app.use(logger("dev"));
 app.use(express.json());

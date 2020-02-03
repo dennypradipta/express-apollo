@@ -22,6 +22,7 @@ export const resolvers = {
     song: async (obj, args, context, info) => db.songs.findByPk(args.id)
   },
   Song: {
-    artist: async (obj, args, context, info) => db.songs.findByPk(obj.artistID)
+    artist: async (obj, args, context, info) =>
+      db.artists.findByPk(obj.artistID)
   }
 };
