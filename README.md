@@ -1,6 +1,6 @@
 # Express Apollo
 
-A simple example of GraphQL Apollo Server using Express.
+A simple example of GraphQL Apollo Server using Express and PostgreSQL.
 
 ## How to Run
 
