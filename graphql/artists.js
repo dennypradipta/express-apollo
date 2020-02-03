@@ -8,6 +8,7 @@ export const typeDefs = gql`
   }
 
   type Artist {
+    id: ID
     name: String
   }
 `;
