@@ -6,7 +6,7 @@ A simple example of GraphQL Apollo Server using Express.
 
 - Install [PostgreSQL](https://www.postgresql.org/)
 - Clone this repository using `git clone https://github.com/dennypradipta/express-apollo.git` command
-- Create .env file using the .env.example inside the express-apollo to configure your database connection
+- Create .env file using the .env.example inside the express-apollo directory to configure your database connection
 - Run `npm install` to install all the depedencies
 - Run `npm run seed` to seed database
 - Run `npm run start` to start
@@ -72,3 +72,8 @@ A simple example of GraphQL Apollo Server using Express.
   }
 }
 ```
+
+# References
+
+- [From REST to GraphQL: A different way to create an API (with Apollo & Node.js)](https://blog.logrocket.com/from-rest-to-graphql/)
+- [DirkWolthuis/graphql-express-migrating-mysql](https://github.com/DirkWolthuis/graphql-express-migrating-mysql)
